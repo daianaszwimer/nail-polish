@@ -4,7 +4,6 @@ const onLoad = () => {
 }
 
 const changeColor = (event) => {
-    console.log(event, "asda");
     const element = document.getElementById("nails");
     element.style.backgroundColor = event.target.value;
 }

@@ -6,4 +6,4 @@ const onLoad = () => {
 const changeColor = (event) => {
     const element = document.getElementById("nails");
     element.style.backgroundColor = event.target.value;
-} 
+}
